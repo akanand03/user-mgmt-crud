@@ -1,0 +1,93 @@
+/* Container for the form */
+.addUser {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #a1c4fd, #b0ec91);
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+.addUserForm {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+/* Input group styling */
+.inputGroup {
+  margin-bottom: 20px;
+}
+
+.inputGroup label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.inputGroup input[type="text"],
+.inputGroup input[type="email"],
+.inputGroup select {
+  width: calc(100% - 30px);
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.inputGroup select {
+  appearance: none;
+  padding-right: 35px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23222222' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+}
+
+/* Button styling */
+.inputGroup button {
+  width: calc(100% - 30px);
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.inputGroup button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.inputGroup button:hover {
+  background-color: #0056b3;
+}
+
+/* Error message styling */
+.inputGroup p {
+  color: #dc3545;
+  margin-top: 8px;
+}
+
+/* Heading */
+.addUser h3 {
+  margin-top: 0;
+  color: #333;
+  font-size: 24px; /* Increased font size */
+}
+
+Back link
+.addUser a {
+  display: block;
+  margin-bottom: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.addUser a:hover {
+  text-decoration: underline;
+}

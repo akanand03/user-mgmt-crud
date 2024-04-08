@@ -1,0 +1,40 @@
+/* navbar.css */
+
+.navbar {
+  background: linear-gradient(135deg, #1a237e, #1565c0); /* Dark gradient background */
+  color: #ffffff; /* Text color */
+  padding: 1rem; /* Padding */
+}
+
+.container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space items evenly */
+  align-items: center; /* Center items vertically */
+}
+
+.navbar-logo {
+  font-size: 1.5rem; /* Logo font size */
+  text-decoration: none; /* Remove underline */
+  color: #ffffff; /* Logo color */
+}
+
+.navbar-menu {
+  list-style-type: none; /* Remove list bullets */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex; /* Use flexbox for layout */
+}
+
+.navbar-item {
+  margin-right: 1rem; /* Margin between items */
+}
+
+.navbar-link {
+  text-decoration: none; /* Remove underline */
+  color: #ffffff; /* Link color */
+}
+
+/* Hover effect for navbar links */
+.navbar-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
