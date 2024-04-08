@@ -1,4 +1,4 @@
-# User Management System (CRUD App) 🚀
+# Mern Stack User Management System (CRUD App) 🚀
 <hr>
 
 ## Description
